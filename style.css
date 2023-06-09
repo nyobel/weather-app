@@ -1,0 +1,98 @@
+html{
+    background-image: url(./sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'PT Serif', serif;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px 15px;
+    margin-bottom: 33px;
+}
+
+header input{
+    padding: 10px 14px;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 250px;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 350;
+    color: rgba(7, 59, 90, 0.849);
+    transition: 0.3 ease-out;
+}
+ 
+header input:focus-within{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.search-button{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 650px;
+    color: rgba(7, 59, 90, 0.849);
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.search-button:hover{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px rgba(7, 59, 90, 0.849) solid;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 25px 25px 50px;
+}
+
+.location .city{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+}
+
+.location .date{
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.current .temp{
+    color: rgba(255, 255, 255, 1);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.current .temp span{
+    font-weight: 800;
+}
+
+.current .desc{
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
+    font-weight: 500;
+    font-style: oblique;
+}
